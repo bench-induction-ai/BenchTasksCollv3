@@ -1,0 +1,10 @@
+name: Populate finalpool
+
+on:
+  workflow_dispatch:
+
+jobs:
+  registered:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Select the finalpool ref to populate tasks.'
