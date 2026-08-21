@@ -3,8 +3,129 @@ name: Populate finalpool
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  registered:
+  populate:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Select the finalpool ref to populate tasks.'
+      - uses: actions/checkout@v4
+        with:
+          ref: finalpool
+          fetch-depth: 0
+      - name: Copy all implemented tracker tasks
+        shell: python
+        run: |
+          from pathlib import Path
+          import subprocess
+          import shutil
+          items = '''
+yuxuan-dev yuxuan network-analyzer
+yuxuan-dev yuxuan task-scheduler
+yuxuan-dev yuxuan content-manager
+yuxuan-dev yuxuan asset-optimizer
+yuxuan-dev yuxuan sync-service
+junteng_dev junteng order-processor
+junteng_dev junteng product-catalog
+junteng_dev junteng reminder-service
+junteng_dev junteng shipment-tracker
+junteng_dev junteng contact-manager
+junteng_dev junteng calendar-sync
+junteng_dev junteng booking-system
+junteng_dev junteng customer-portal
+junteng_dev junteng help-desk
+yuzhen-dev yuzhen payment-processor
+yuzhen-dev yuzhen permission-manager
+yuzhen-dev yuzhen form-builder
+yuzhen-dev yuzhen invoice-generator
+yuzhen-dev yuzhen data-validator
+yuzhen-dev yuzhen alert-system
+jl_dev jl pdf-report-generator
+jl_dev jl email-classification-system
+jl_dev jl canvas-grade-automation
+jl_dev jl customer-feedback-processor
+jl_dev jl inventory-management
+lv lv personalization-service
+lv lv sentiment-analyzer
+lv lv feedback-collector
+lv lv voice-processor
+lv lv chat-bot
+lv lv survey-builder
+lv lv analytics-dashboard
+fan-dev fan price-tracker
+fan-dev fan coupon-manager
+fan-dev fan loyalty-program
+fan-dev fan discount-calculator
+junxian_dev junxian qr-generator
+junxian_dev junxian translation-api
+junxian_dev junxian social-connector
+lueyang-dev lueyang sales-pipeline
+lueyang-dev lueyang follow-up-reminder
+lueyang-dev lueyang email-campaign
+lueyang-dev lueyang deal-manager
+lueyang-dev lueyang crm-system
+lueyang-dev lueyang activity-logger
+lueyang-dev lueyang territory-manager
+lueyang-dev lueyang client-portal
+wenshuo-dev wenshuo search-engine
+wenshuo-dev wenshuo image-processor
+wenshuo-dev wenshuo cache-optimizer
+wenshuo-dev wenshuo scheduler
+xiaochen_dev xiaochen security-scanner
+xiaochen_dev xiaochen error-tracker
+xiaochen_dev xiaochen deployment-tool
+xiaochen_dev xiaochen monitoring-agent
+xiaochen_dev xiaochen backup-utility
+xiaochen_dev xiaochen status-checker
+xiaochen_dev xiaochen health-monitor
+ruige ruige file-manager
+ruige ruige expense-tracker
+ruige ruige data-analytics
+ruige ruige canvas-automation
+ruige ruige web-crawler
+ruige ruige log-analyzer
+gyy gyy social-publisher
+gyy gyy content-scheduler
+gyy gyy cms-builder
+gyy gyy blog-engine
+gyy gyy tag-manager
+gyy gyy sitemap-generator
+gyy gyy robots-handler
+haoze haoze subtitle-generator
+haoze haoze video-trimmer
+haoze haoze media-organizer
+haoze haoze streaming-service
+zhaochen zhaochen template-engine
+zhaochen zhaochen load-balancer
+zhaochen zhaochen certificate-manager
+zhaochen zhaochen storage-manager
+'''.strip().splitlines()
+          subprocess.run(['git', 'clone', '--filter=blob:none', 'https://github.com/toolathlon/BenchTasksCollv3.git', 'source'], check=True)
+          subprocess.run(['git', '-C', 'source', 'fetch', 'origin', '+refs/heads/*:refs/remotes/origin/*'], check=True)
+          root = Path('tasks/finalpool')
+          shutil.rmtree(root, ignore_errors=True)
+          files_copied = 0
+          for item in items:
+              branch, owner, task = item.split()
+              source_dir = f'tasks/{owner}/{task}'
+              source_files = subprocess.check_output(['git', '-C', 'source', 'ls-tree', '-r', '--name-only', f'origin/{branch}', '--', source_dir], text=True).splitlines()
+              if not source_files:
+                  raise RuntimeError(f'Missing source task: {branch}:{source_dir}')
+              for source in source_files:
+                  target = root / task / source[len(source_dir) + 1:]
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(subprocess.check_output(['git', '-C', 'source', 'show', f'origin/{branch}:{source}']))
+                  files_copied += 1
+          if len(items) != 79 or len([path for path in root.iterdir() if path.is_dir()]) != 79:
+              raise RuntimeError('finalpool completeness check failed')
+          print(f'Copied 79 tasks and {files_copied} files.')
+      - name: Commit finalpool tasks
+        run: |
+          rm .github/workflows/populate-finalpool.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tasks/finalpool
+          git add -u .github/workflows/populate-finalpool.yml
+          git commit -m 'Add implemented Task Tracker tasks to finalpool'
+          git push origin HEAD:finalpool
