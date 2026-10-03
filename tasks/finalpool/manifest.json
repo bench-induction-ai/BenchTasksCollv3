@@ -1,0 +1,547 @@
+{
+  "tracker_page_id": "3ee7ed39-46dc-818d-b9d6-d76138183651",
+  "tracker_database_id": "2ac7ed39-46dc-8276-8425-817a41856310",
+  "task_count": 54,
+  "tasks": [
+    {
+      "task": "activity-logger",
+      "notion_page_id": "13f7ed39-46dc-82ce-ad88-01ae5cda04f0",
+      "status": "implemented",
+      "source_branch": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/activity-logger",
+      "pool_path": "tasks/finalpool/activity-logger",
+      "file_count": 5
+    },
+    {
+      "task": "alert-system",
+      "notion_page_id": "ef77ed39-46dc-83df-b7d1-01bc0595dbd8",
+      "status": "implemented",
+      "source_branch": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/alert-system",
+      "pool_path": "tasks/finalpool/alert-system",
+      "file_count": 5
+    },
+    {
+      "task": "asset-optimizer",
+      "notion_page_id": "3f17ed39-46dc-82a7-b0ec-81a068eca39c",
+      "status": "implemented",
+      "source_branch": "yuxuan-dev",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/asset-optimizer",
+      "pool_path": "tasks/finalpool/asset-optimizer",
+      "file_count": 5
+    },
+    {
+      "task": "backup-utility",
+      "notion_page_id": "8967ed39-46dc-834a-8369-81fe083678bc",
+      "status": "implemented",
+      "source_branch": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/backup-utility",
+      "pool_path": "tasks/finalpool/backup-utility",
+      "file_count": 4
+    },
+    {
+      "task": "blog-engine",
+      "notion_page_id": "1b67ed39-46dc-83f6-b0d6-01f37bd59b10",
+      "status": "implemented",
+      "source_branch": "gyy",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/blog-engine",
+      "pool_path": "tasks/finalpool/blog-engine",
+      "file_count": 6
+    },
+    {
+      "task": "booking-system",
+      "notion_page_id": "e537ed39-46dc-83ab-a941-81c98104f85d",
+      "status": "implemented",
+      "source_branch": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/booking-system",
+      "pool_path": "tasks/finalpool/booking-system",
+      "file_count": 7
+    },
+    {
+      "task": "calendar-sync",
+      "notion_page_id": "91f7ed39-46dc-8360-88de-8179fea4504f",
+      "status": "implemented",
+      "source_branch": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/calendar-sync",
+      "pool_path": "tasks/finalpool/calendar-sync",
+      "file_count": 6
+    },
+    {
+      "task": "canvas-automation",
+      "notion_page_id": "5e77ed39-46dc-827b-aaf5-01041670e604",
+      "status": "implemented",
+      "source_branch": "ruige",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/canvas-automation",
+      "pool_path": "tasks/finalpool/canvas-automation",
+      "file_count": 5
+    },
+    {
+      "task": "canvas-grade-automation",
+      "notion_page_id": "a757ed39-46dc-8274-840f-012dc30827a1",
+      "status": "implemented",
+      "source_branch": "jl_dev",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/canvas-grade-automation",
+      "pool_path": "tasks/finalpool/canvas-grade-automation",
+      "file_count": 4
+    },
+    {
+      "task": "chat-bot",
+      "notion_page_id": "df87ed39-46dc-8358-8019-0151fd4710b2",
+      "status": "implemented",
+      "source_branch": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/chat-bot",
+      "pool_path": "tasks/finalpool/chat-bot",
+      "file_count": 6
+    },
+    {
+      "task": "cms-builder",
+      "notion_page_id": "74e7ed39-46dc-83ed-9f8c-01debcc1ac7b",
+      "status": "implemented",
+      "source_branch": "gyy",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/cms-builder",
+      "pool_path": "tasks/finalpool/cms-builder",
+      "file_count": 7
+    },
+    {
+      "task": "contact-manager",
+      "notion_page_id": "5297ed39-46dc-82f0-9741-81bc529bc411",
+      "status": "implemented",
+      "source_branch": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/contact-manager",
+      "pool_path": "tasks/finalpool/contact-manager",
+      "file_count": 6
+    },
+    {
+      "task": "content-manager",
+      "notion_page_id": "1967ed39-46dc-82fd-9283-81e39ab5731c",
+      "status": "implemented",
+      "source_branch": "yuxuan-dev",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/content-manager",
+      "pool_path": "tasks/finalpool/content-manager",
+      "file_count": 7
+    },
+    {
+      "task": "content-scheduler",
+      "notion_page_id": "bc57ed39-46dc-830a-b11b-816b9b109c84",
+      "status": "implemented",
+      "source_branch": "gyy",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/content-scheduler",
+      "pool_path": "tasks/finalpool/content-scheduler",
+      "file_count": 5
+    },
+    {
+      "task": "coupon-manager",
+      "notion_page_id": "af27ed39-46dc-8230-950d-01aa8c0ec2c2",
+      "status": "implemented",
+      "source_branch": "fan-dev",
+      "source_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "source_path": "tasks/fan/coupon-manager",
+      "pool_path": "tasks/finalpool/coupon-manager",
+      "file_count": 4
+    },
+    {
+      "task": "crm-system",
+      "notion_page_id": "d1e7ed39-46dc-837c-82c4-81b4bd3f9e2d",
+      "status": "implemented",
+      "source_branch": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/crm-system",
+      "pool_path": "tasks/finalpool/crm-system",
+      "file_count": 7
+    },
+    {
+      "task": "data-analytics",
+      "notion_page_id": "a1a7ed39-46dc-8380-9294-01bda1ce71df",
+      "status": "implemented",
+      "source_branch": "ruige",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/data-analytics",
+      "pool_path": "tasks/finalpool/data-analytics",
+      "file_count": 5
+    },
+    {
+      "task": "data-validator",
+      "notion_page_id": "f307ed39-46dc-823c-a362-8188d72e735a",
+      "status": "implemented",
+      "source_branch": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/data-validator",
+      "pool_path": "tasks/finalpool/data-validator",
+      "file_count": 5
+    },
+    {
+      "task": "deal-manager",
+      "notion_page_id": "ef57ed39-46dc-836f-a3bd-81168ec750c8",
+      "status": "implemented",
+      "source_branch": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/deal-manager",
+      "pool_path": "tasks/finalpool/deal-manager",
+      "file_count": 5
+    },
+    {
+      "task": "deployment-tool",
+      "notion_page_id": "3567ed39-46dc-8319-877f-01b78321b75b",
+      "status": "implemented",
+      "source_branch": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/deployment-tool",
+      "pool_path": "tasks/finalpool/deployment-tool",
+      "file_count": 6
+    },
+    {
+      "task": "email-campaign",
+      "notion_page_id": "d0d7ed39-46dc-8321-a031-81a6b8b0be01",
+      "status": "implemented",
+      "source_branch": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/email-campaign",
+      "pool_path": "tasks/finalpool/email-campaign",
+      "file_count": 6
+    },
+    {
+      "task": "email-classification-system",
+      "notion_page_id": "6877ed39-46dc-83db-aee3-015b0c5c6209",
+      "status": "implemented",
+      "source_branch": "jl_dev",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/email-classification-system",
+      "pool_path": "tasks/finalpool/email-classification-system",
+      "file_count": 6
+    },
+    {
+      "task": "error-tracker",
+      "notion_page_id": "95f7ed39-46dc-8220-ae52-013d7ab2e5a3",
+      "status": "implemented",
+      "source_branch": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/error-tracker",
+      "pool_path": "tasks/finalpool/error-tracker",
+      "file_count": 5
+    },
+    {
+      "task": "expense-tracker",
+      "notion_page_id": "dff7ed39-46dc-833c-aef6-8137af75285c",
+      "status": "implemented",
+      "source_branch": "ruige",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/expense-tracker",
+      "pool_path": "tasks/finalpool/expense-tracker",
+      "file_count": 5
+    },
+    {
+      "task": "feedback-collector",
+      "notion_page_id": "2947ed39-46dc-83f8-b555-81992ecff716",
+      "status": "implemented",
+      "source_branch": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/feedback-collector",
+      "pool_path": "tasks/finalpool/feedback-collector",
+      "file_count": 5
+    },
+    {
+      "task": "file-manager",
+      "notion_page_id": "0367ed39-46dc-830f-8f7e-013c26cb139c",
+      "status": "implemented",
+      "source_branch": "ruige",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/file-manager",
+      "pool_path": "tasks/finalpool/file-manager",
+      "file_count": 4
+    },
+    {
+      "task": "follow-up-reminder",
+      "notion_page_id": "79d7ed39-46dc-83d1-b7e2-0103fdae8dd2",
+      "status": "implemented",
+      "source_branch": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/follow-up-reminder",
+      "pool_path": "tasks/finalpool/follow-up-reminder",
+      "file_count": 5
+    },
+    {
+      "task": "form-builder",
+      "notion_page_id": "2927ed39-46dc-8335-846d-81f27d0b0cd0",
+      "status": "implemented",
+      "source_branch": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/form-builder",
+      "pool_path": "tasks/finalpool/form-builder",
+      "file_count": 3
+    },
+    {
+      "task": "image-processor",
+      "notion_page_id": "fdd7ed39-46dc-8239-a9d6-814e740ece91",
+      "status": "implemented",
+      "source_branch": "wenshuo-dev",
+      "source_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "source_path": "tasks/wenshuo/image-processor",
+      "pool_path": "tasks/finalpool/image-processor",
+      "file_count": 6
+    },
+    {
+      "task": "invoice-generator",
+      "notion_page_id": "4197ed39-46dc-8292-9e50-81fa4d076df8",
+      "status": "implemented",
+      "source_branch": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/invoice-generator",
+      "pool_path": "tasks/finalpool/invoice-generator",
+      "file_count": 4
+    },
+    {
+      "task": "load-balancer",
+      "notion_page_id": "8d97ed39-46dc-8364-a5da-81cbbfabf6b2",
+      "status": "implemented",
+      "source_branch": "zhaochen",
+      "source_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "source_path": "tasks/zhaochen/load-balancer",
+      "pool_path": "tasks/finalpool/load-balancer",
+      "file_count": 4
+    },
+    {
+      "task": "monitoring-agent",
+      "notion_page_id": "2ad7ed39-46dc-8382-a893-01fbe1c3f32c",
+      "status": "implemented",
+      "source_branch": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/monitoring-agent",
+      "pool_path": "tasks/finalpool/monitoring-agent",
+      "file_count": 5
+    },
+    {
+      "task": "network-analyzer",
+      "notion_page_id": "bc57ed39-46dc-8377-ad38-01a382ed2989",
+      "status": "implemented",
+      "source_branch": "yuxuan-dev",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/network-analyzer",
+      "pool_path": "tasks/finalpool/network-analyzer",
+      "file_count": 3
+    },
+    {
+      "task": "order-processor",
+      "notion_page_id": "fcc7ed39-46dc-836c-9bd1-81e256bcd3cb",
+      "status": "implemented",
+      "source_branch": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/order-processor",
+      "pool_path": "tasks/finalpool/order-processor",
+      "file_count": 4
+    },
+    {
+      "task": "payment-processor",
+      "notion_page_id": "8db7ed39-46dc-82c0-ae95-8194083557f6",
+      "status": "implemented",
+      "source_branch": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/payment-processor",
+      "pool_path": "tasks/finalpool/payment-processor",
+      "file_count": 5
+    },
+    {
+      "task": "pdf-report-generator",
+      "notion_page_id": "1027ed39-46dc-8276-9c35-815f8443829e",
+      "status": "implemented",
+      "source_branch": "jl_dev",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/pdf-report-generator",
+      "pool_path": "tasks/finalpool/pdf-report-generator",
+      "file_count": 6
+    },
+    {
+      "task": "permission-manager",
+      "notion_page_id": "80f7ed39-46dc-8350-9368-0113997a591a",
+      "status": "implemented",
+      "source_branch": "yuzhen-dev",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/permission-manager",
+      "pool_path": "tasks/finalpool/permission-manager",
+      "file_count": 5
+    },
+    {
+      "task": "personalization-service",
+      "notion_page_id": "9b27ed39-46dc-8385-a7cd-81d8f04e1607",
+      "status": "implemented",
+      "source_branch": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/personalization-service",
+      "pool_path": "tasks/finalpool/personalization-service",
+      "file_count": 4
+    },
+    {
+      "task": "price-tracker",
+      "notion_page_id": "81c7ed39-46dc-8393-be37-816c952a9c97",
+      "status": "implemented",
+      "source_branch": "fan-dev",
+      "source_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "source_path": "tasks/fan/price-tracker",
+      "pool_path": "tasks/finalpool/price-tracker",
+      "file_count": 4
+    },
+    {
+      "task": "product-catalog",
+      "notion_page_id": "1877ed39-46dc-83cb-a000-01bf3659a1ea",
+      "status": "implemented",
+      "source_branch": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/product-catalog",
+      "pool_path": "tasks/finalpool/product-catalog",
+      "file_count": 6
+    },
+    {
+      "task": "qr-generator",
+      "notion_page_id": "af87ed39-46dc-8318-a7be-81159bea450e",
+      "status": "implemented",
+      "source_branch": "junxian_dev",
+      "source_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "source_path": "tasks/junxian/qr-generator",
+      "pool_path": "tasks/finalpool/qr-generator",
+      "file_count": 6
+    },
+    {
+      "task": "reminder-service",
+      "notion_page_id": "4c97ed39-46dc-82b0-8618-81f012662e23",
+      "status": "implemented",
+      "source_branch": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/reminder-service",
+      "pool_path": "tasks/finalpool/reminder-service",
+      "file_count": 4
+    },
+    {
+      "task": "sales-pipeline",
+      "notion_page_id": "3f47ed39-46dc-8373-bde0-81bd7861cf5c",
+      "status": "implemented",
+      "source_branch": "lueyang-dev",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/sales-pipeline",
+      "pool_path": "tasks/finalpool/sales-pipeline",
+      "file_count": 3
+    },
+    {
+      "task": "search-engine",
+      "notion_page_id": "e967ed39-46dc-83a0-aaaa-014db60a61ff",
+      "status": "implemented",
+      "source_branch": "wenshuo-dev",
+      "source_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "source_path": "tasks/wenshuo/search-engine",
+      "pool_path": "tasks/finalpool/search-engine",
+      "file_count": 7
+    },
+    {
+      "task": "security-scanner",
+      "notion_page_id": "ccb7ed39-46dc-8262-a772-0199b72e295b",
+      "status": "implemented",
+      "source_branch": "xiaochen_dev",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/security-scanner",
+      "pool_path": "tasks/finalpool/security-scanner",
+      "file_count": 5
+    },
+    {
+      "task": "sentiment-analyzer",
+      "notion_page_id": "6ed7ed39-46dc-829e-bb22-013995eacf27",
+      "status": "implemented",
+      "source_branch": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/sentiment-analyzer",
+      "pool_path": "tasks/finalpool/sentiment-analyzer",
+      "file_count": 4
+    },
+    {
+      "task": "shipment-tracker",
+      "notion_page_id": "e227ed39-46dc-8276-8cd1-8197c4be1631",
+      "status": "implemented",
+      "source_branch": "junteng_dev",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/shipment-tracker",
+      "pool_path": "tasks/finalpool/shipment-tracker",
+      "file_count": 3
+    },
+    {
+      "task": "social-publisher",
+      "notion_page_id": "a1d7ed39-46dc-83da-814e-816d67c85524",
+      "status": "implemented",
+      "source_branch": "gyy",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/social-publisher",
+      "pool_path": "tasks/finalpool/social-publisher",
+      "file_count": 5
+    },
+    {
+      "task": "subtitle-generator",
+      "notion_page_id": "0e97ed39-46dc-82d2-8bd4-0159ba390787",
+      "status": "implemented",
+      "source_branch": "haoze",
+      "source_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "source_path": "tasks/haoze/subtitle-generator",
+      "pool_path": "tasks/finalpool/subtitle-generator",
+      "file_count": 6
+    },
+    {
+      "task": "task-scheduler",
+      "notion_page_id": "eb07ed39-46dc-8310-b520-012d56584b77",
+      "status": "implemented",
+      "source_branch": "yuxuan-dev",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/task-scheduler",
+      "pool_path": "tasks/finalpool/task-scheduler",
+      "file_count": 3
+    },
+    {
+      "task": "template-engine",
+      "notion_page_id": "d157ed39-46dc-827e-b02c-81e3f06df4fa",
+      "status": "implemented",
+      "source_branch": "zhaochen",
+      "source_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "source_path": "tasks/zhaochen/template-engine",
+      "pool_path": "tasks/finalpool/template-engine",
+      "file_count": 3
+    },
+    {
+      "task": "translation-api",
+      "notion_page_id": "4567ed39-46dc-8298-bf5f-014f54784a25",
+      "status": "implemented",
+      "source_branch": "junxian_dev",
+      "source_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "source_path": "tasks/junxian/translation-api",
+      "pool_path": "tasks/finalpool/translation-api",
+      "file_count": 5
+    },
+    {
+      "task": "video-trimmer",
+      "notion_page_id": "0cc7ed39-46dc-83d0-aed3-819cdb9e0666",
+      "status": "implemented",
+      "source_branch": "haoze",
+      "source_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "source_path": "tasks/haoze/video-trimmer",
+      "pool_path": "tasks/finalpool/video-trimmer",
+      "file_count": 4
+    },
+    {
+      "task": "voice-processor",
+      "notion_page_id": "ce57ed39-46dc-835f-81de-8152db8c4707",
+      "status": "implemented",
+      "source_branch": "lv",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/voice-processor",
+      "pool_path": "tasks/finalpool/voice-processor",
+      "file_count": 5
+    }
+  ]
+}
