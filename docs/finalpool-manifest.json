@@ -1,0 +1,2551 @@
+{
+  "repository": "bench-induction-ai/BenchTasksCollv3",
+  "branch": "finalpool",
+  "base_commit": "6ac0348555050a99bcf4f08ff8bf920616482289",
+  "destination": "tasks/finalpool",
+  "notion_page_id": "41f7ed39-46dc-816a-962a-f67841268cf3",
+  "notion_database_id": "0447ed39-46dc-833b-9450-81be1db91c6a",
+  "selection": "All tasks marked implemented in Task Tracker after reviewing the latest untracked task batches. Pre-existing statuses were preserved; those tasks were not reclassified by this latest-task review.",
+  "task_count": 54,
+  "file_count": 268,
+  "tasks": [
+    {
+      "name": "network-analyzer",
+      "branch": "yuxuan-dev",
+      "source_path": "tasks/yuxuan/network-analyzer",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "tree_sha": "475c6aace9779634e0d255a29084324fd3991ce7",
+      "destination": "tasks/finalpool/network-analyzer",
+      "notion_page_id": "9487ed39-46dc-8389-9b83-810eb8bfb140",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "69f6a79bc99e06a3474d552900a8b1925a668d50",
+          "mode": "100644",
+          "size": 123
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "474295ab9a63e34b404e4fbf40458e2f8c388663",
+          "mode": "100644",
+          "size": 91
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "38306e8f69d42cb0c26a07c00ebeeb340b2b0ffd",
+          "mode": "100644",
+          "size": 279
+        }
+      ]
+    },
+    {
+      "name": "order-processor",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/order-processor",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "tree_sha": "8c7ebc342a60168bec38fe3d7f9242a0fcd820da",
+      "destination": "tasks/finalpool/order-processor",
+      "notion_page_id": "31d7ed39-46dc-83b1-8cf7-01d954f04d4e",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "551b26678450a3109da2f021331e5c7b47340e5c",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "80c3094dc46fd6277a3edc355ba369dff9908fea",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "d7be8a27076fd29d9800c597607bf995b0b4d3ca",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "9bc4c8c2f543a3e00f2aaf52d3cac3fc4d61a186",
+          "mode": "100644",
+          "size": 38
+        }
+      ]
+    },
+    {
+      "name": "payment-processor",
+      "branch": "yuzhen-dev",
+      "source_path": "tasks/yuzhen/payment-processor",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "tree_sha": "256505b74b70546965e95a57dabdd3c319b71332",
+      "destination": "tasks/finalpool/payment-processor",
+      "notion_page_id": "1cc7ed39-46dc-83b6-b8bd-812b7af05ba1",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "2dac5ae1038b129bb721bfffbdf774822956de98",
+          "mode": "100644",
+          "size": 124
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "7ab01099d715c4b3a643280464582fabfd590e32",
+          "mode": "100644",
+          "size": 93
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "fadb1bca67b2a0e7869ca5302fa2d413386506ab",
+          "mode": "100644",
+          "size": 52
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "7b815ec12ed6cd461921ec5d3f0293b21b16dace",
+          "mode": "100644",
+          "size": 280
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "f0bbd0d0a6729357f09f78d2e4a809a66f481d55",
+          "mode": "100644",
+          "size": 39
+        }
+      ]
+    },
+    {
+      "name": "pdf-report-generator",
+      "branch": "jl_dev",
+      "source_path": "tasks/jl/pdf-report-generator",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "tree_sha": "b22972571d7fde6858d57e673c1311d98aac9d29",
+      "destination": "tasks/finalpool/pdf-report-generator",
+      "notion_page_id": "c187ed39-46dc-82c4-82fe-018a2b121e34",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "62db8dc075cda6da4f3f0c3fa8b373524d32211b",
+          "mode": "100644",
+          "size": 127
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "2b55c6adc7323f8e45d313cffc30380c9ea53442",
+          "mode": "100644",
+          "size": 99
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "1c02cf84b856db4600d16eacd13e06af26c73af7",
+          "mode": "100644",
+          "size": 55
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "d81995c4d247dc1339c63c9babbd0c1fda79e1a8",
+          "mode": "100644",
+          "size": 283
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "11350ab1898ef9b63e7ecba0d78fbdbbc8e44123",
+          "mode": "100644",
+          "size": 42
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "62aa6c0fa7688557012af61025fa576a73c57812",
+          "mode": "100644",
+          "size": 43
+        }
+      ]
+    },
+    {
+      "name": "permission-manager",
+      "branch": "yuzhen-dev",
+      "source_path": "tasks/yuzhen/permission-manager",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "tree_sha": "4792e35e463a77a293db4c1c12e87bca94e20243",
+      "destination": "tasks/finalpool/permission-manager",
+      "notion_page_id": "66a7ed39-46dc-8231-ba78-81741dd25474",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "6ea4a757b1c5355e13fd8c60a1112a390ef734ee",
+          "mode": "100644",
+          "size": 125
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "fc0d74d29fd77c1b941be474d7564842cdae8093",
+          "mode": "100644",
+          "size": 95
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "30f2138eb459341c7f24a969ca6647c86084fb7d",
+          "mode": "100644",
+          "size": 281
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "01a1d345896fa4f6daff621e073d14f082d718ef",
+          "mode": "100644",
+          "size": 41
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "personalization-service",
+      "branch": "lv",
+      "source_path": "tasks/lv/personalization-service",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "tree_sha": "a103316caee2cc8f8963c2031078ef77cf1dfef2",
+      "destination": "tasks/finalpool/personalization-service",
+      "notion_page_id": "77b7ed39-46dc-8311-ad57-015426a0527f",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "a5a746fd57bd52ff20e8801bf6a32ed8e39d375a",
+          "mode": "100644",
+          "size": 130
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "6bdbf2bd286948414a732205a502c9e06336ee2b",
+          "mode": "100644",
+          "size": 105
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "75683b4a6baacc47daf8991e7a84e532dfd0be1e",
+          "mode": "100644",
+          "size": 286
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "price-tracker",
+      "branch": "fan-dev",
+      "source_path": "tasks/fan/price-tracker",
+      "source_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "tree_sha": "709f2e592b56aa2303902434c4a44bc1332eb260",
+      "destination": "tasks/finalpool/price-tracker",
+      "notion_page_id": "7df7ed39-46dc-8394-8229-8123b9968ced",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "4d38c4f2c9daeea975f76e7f701d2d536c997d7e",
+          "mode": "100644",
+          "size": 120
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "66908fff5310e6ab65f9882c44cc71568715974e",
+          "mode": "100644",
+          "size": 85
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "b6c6f37202e826e8444fc223b6e82c7cc3e2d9c2",
+          "mode": "100644",
+          "size": 276
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "1617067aea180d556b21366e720b3e3c99b10f8b",
+          "mode": "100644",
+          "size": 35
+        }
+      ]
+    },
+    {
+      "name": "product-catalog",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/product-catalog",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "tree_sha": "883159e418369a41fabe37489fc8512cfae7cdc5",
+      "destination": "tasks/finalpool/product-catalog",
+      "notion_page_id": "e637ed39-46dc-82e0-a45e-01ba492c5262",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "d3a114a3596772e5ac400dc35fdc29d4e96d365a",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "c246972a18fef82bf5ab87e73b7e3dd4c0ddced1",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "b8e7ce47c5fd73414624e52974ce17baefe827e3",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "aa5ad4fee1fa6eb3248c4003f8848f3d6075344e",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "15a9147f4513299969477158e87bf807f5edb214",
+          "mode": "100644",
+          "size": 37
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "qr-generator",
+      "branch": "junxian_dev",
+      "source_path": "tasks/junxian/qr-generator",
+      "source_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "tree_sha": "de71eaf92be212bbdbbaa74b459dddb0b80cca4e",
+      "destination": "tasks/finalpool/qr-generator",
+      "notion_page_id": "8647ed39-46dc-82c4-b08d-011397c3d5e6",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "8db26807ba38149e429f8f4aba83c8d011541d63",
+          "mode": "100644",
+          "size": 119
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "2b426d9a7901bbf0d468d3f9fa22dafcf2cd008c",
+          "mode": "100644",
+          "size": 83
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "e90d40478fd954df2b7c9548ce56895fd193881b",
+          "mode": "100644",
+          "size": 47
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "c973acb75e915c0b66a0a8767c1759dc5874e61a",
+          "mode": "100644",
+          "size": 275
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "c732c9722d42fe395597d1a58f4b14dae8ae4a85",
+          "mode": "100644",
+          "size": 34
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "reminder-service",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/reminder-service",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "tree_sha": "805567f87e26f4ce2a8766fc10bcbe5530d186a2",
+      "destination": "tasks/finalpool/reminder-service",
+      "notion_page_id": "4bc7ed39-46dc-839f-89b0-8118011ce9e0",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "e445c597a9e7a5d2de67a04579636694f3180d73",
+          "mode": "100644",
+          "size": 123
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "6d1f79bc7d57d98706b602af5f8a106237707ea8",
+          "mode": "100644",
+          "size": 91
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "463abec43dab7601b7bfa2ae5fd495ab258c9e22",
+          "mode": "100644",
+          "size": 279
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "sales-pipeline",
+      "branch": "lueyang-dev",
+      "source_path": "tasks/lueyang/sales-pipeline",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "tree_sha": "52a4c35e2a8195644f53400ead27a84c681eb524",
+      "destination": "tasks/finalpool/sales-pipeline",
+      "notion_page_id": "60d7ed39-46dc-8310-be73-0152360af87b",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "2dd7a0dc2d72ecc26c5747d30a40ee5de3786708",
+          "mode": "100644",
+          "size": 121
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "683835d0289a34bbda8e6abd902eae10a552aa07",
+          "mode": "100644",
+          "size": 87
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "bef059eca8e7d6055ae90d8d89af5eec90a8fc64",
+          "mode": "100644",
+          "size": 277
+        }
+      ]
+    },
+    {
+      "name": "search-engine",
+      "branch": "wenshuo-dev",
+      "source_path": "tasks/wenshuo/search-engine",
+      "source_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "tree_sha": "ffad5b8e695aa5fdd31f6a8a79ea8fd6472b9e87",
+      "destination": "tasks/finalpool/search-engine",
+      "notion_page_id": "3b47ed39-46dc-82ce-86e8-814a7298bd2b",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "ee8bd1152adaa1febee6a545afe869f82218066d",
+          "mode": "100644",
+          "size": 120
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "373d85d588537e49d0a006a3004ae261dfe44acd",
+          "mode": "100644",
+          "size": 85
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "920bda31ecd9b20ef8ecab98034443badca8c004",
+          "mode": "100644",
+          "size": 48
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "2bbc1fbf452f20340ee486184e43195cbc5a898d",
+          "mode": "100644",
+          "size": 276
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "3a498c55ca910a6ba023467dcc39471debdf8e5c",
+          "mode": "100644",
+          "size": 35
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "82aad236774f14678654ac72ce6115319d3158ab",
+          "mode": "100644",
+          "size": 36
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "security-scanner",
+      "branch": "xiaochen_dev",
+      "source_path": "tasks/xiaochen/security-scanner",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "tree_sha": "46c0b6355441b555de5e8a50988f8efc5ad6f37c",
+      "destination": "tasks/finalpool/security-scanner",
+      "notion_page_id": "9cf7ed39-46dc-821e-8e9f-81c3d0dfd84c",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "e745356d4926ddb8bc3e5c0b962d40db2fee99ba",
+          "mode": "100644",
+          "size": 123
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "1199f9a9047109e31a6032683e31b83e2758b0e7",
+          "mode": "100644",
+          "size": 91
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "aa598887d36c39d12ee0900fd4e80f42647d40ef",
+          "mode": "100644",
+          "size": 279
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "8c0812f9acde523b2ec33a95b11ea343a4923a5c",
+          "mode": "100644",
+          "size": 38
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "78119296337a3f0852b581afc89b037810e9ce26",
+          "mode": "100644",
+          "size": 39
+        }
+      ]
+    },
+    {
+      "name": "sentiment-analyzer",
+      "branch": "lv",
+      "source_path": "tasks/lv/sentiment-analyzer",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "tree_sha": "92105a3ce2b4e5a800d1f503ab5b8a5f0b8cdf0b",
+      "destination": "tasks/finalpool/sentiment-analyzer",
+      "notion_page_id": "a587ed39-46dc-8342-9ff1-018e99c744ef",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "15552e6fa79e783c9a3f6ffe95201998693e3110",
+          "mode": "100644",
+          "size": 125
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "8fae54191c25c52f8dc5c55760896acb756cec57",
+          "mode": "100644",
+          "size": 95
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "e1d8d5a33a9891857e36f7798e9d6094546ffd69",
+          "mode": "100644",
+          "size": 281
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "form-builder",
+      "branch": "yuzhen-dev",
+      "source_path": "tasks/yuzhen/form-builder",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "tree_sha": "b0d5324baadd1f0d3a9a0c6c200ddfd5d7785e64",
+      "destination": "tasks/finalpool/form-builder",
+      "notion_page_id": "8657ed39-46dc-82c8-bb15-81caa439227d",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "870eb246b060e8f27a0e88a6c2ddea1ba7926f47",
+          "mode": "100644",
+          "size": 119
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "c51655a9f857be1aa69df47713602e4bfc8910ff",
+          "mode": "100644",
+          "size": 83
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "b0d50f2cb2a54e4ae50220d09023200577f91886",
+          "mode": "100644",
+          "size": 275
+        }
+      ]
+    },
+    {
+      "name": "follow-up-reminder",
+      "branch": "lueyang-dev",
+      "source_path": "tasks/lueyang/follow-up-reminder",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "tree_sha": "7c2afad5b5a87157954596bb29851ef0dd73f4ab",
+      "destination": "tasks/finalpool/follow-up-reminder",
+      "notion_page_id": "fb87ed39-46dc-837c-aed8-01ccdfe43721",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "1179aefbab97d59e6d3630ee1156b159a023c167",
+          "mode": "100644",
+          "size": 125
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "793f1e2b6bbd40198ef47473d6b5a3b3b00d6fb4",
+          "mode": "100644",
+          "size": 95
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "da206470878d2fcd3036c98103e41374e8a00021",
+          "mode": "100644",
+          "size": 53
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "659cacbb0b821a3c19d3d60421adfda1dee7281d",
+          "mode": "100644",
+          "size": 281
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "e53072f4489925e86ab63e9139ac46ea57a95c5b",
+          "mode": "100644",
+          "size": 40
+        }
+      ]
+    },
+    {
+      "name": "shipment-tracker",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/shipment-tracker",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "tree_sha": "35ac4e7e2f0da5400f3a1cd73bf64122998b8eb8",
+      "destination": "tasks/finalpool/shipment-tracker",
+      "notion_page_id": "d177ed39-46dc-832e-a918-8113d1ee987d",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "8ffb5d89c371aa407343c2939c66801f06efedc0",
+          "mode": "100644",
+          "size": 123
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "514db2bd7b8dc61995970cd1e2e3041c9f06def9",
+          "mode": "100644",
+          "size": 91
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "62b0f5dee47a625768c19307ea01c59439a65d90",
+          "mode": "100644",
+          "size": 279
+        }
+      ]
+    },
+    {
+      "name": "file-manager",
+      "branch": "ruige",
+      "source_path": "tasks/ruige/file-manager",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "tree_sha": "284a45e17256ca9b4040396847caa23d846bf2af",
+      "destination": "tasks/finalpool/file-manager",
+      "notion_page_id": "4077ed39-46dc-8378-859d-01d135abdba9",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "cbdafc0c1771b91fbb7d83108dbbde1fa740e2a6",
+          "mode": "100644",
+          "size": 119
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "e47e4d2eb2cf76d40e429233889c96121cfdd1b9",
+          "mode": "100644",
+          "size": 83
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "c2121537838967a339dac0eb02d379a68e783404",
+          "mode": "100644",
+          "size": 275
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "39066d1c18ce88edd90983c9a399f868509f68a5",
+          "mode": "100644",
+          "size": 35
+        }
+      ]
+    },
+    {
+      "name": "feedback-collector",
+      "branch": "lv",
+      "source_path": "tasks/lv/feedback-collector",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "tree_sha": "8ed97e81d0804c06bf4ed195aa7b4a8915f5b5f0",
+      "destination": "tasks/finalpool/feedback-collector",
+      "notion_page_id": "d4f7ed39-46dc-8327-bae2-8173192e4951",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "a2f93a5f687816bb7260a7df1eb8b3d0efcac228",
+          "mode": "100644",
+          "size": 125
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "0a80d28b35b96121a0fe41009bcfde09c8f16f08",
+          "mode": "100644",
+          "size": 95
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "1dcd2febfff0e0cf8983ea0d235a805020521ddb",
+          "mode": "100644",
+          "size": 53
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "987379d7c349b1082a48e3dcab79957f6ef6f684",
+          "mode": "100644",
+          "size": 281
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "fb367d1db387cabe5d03204fc154058af3d38565",
+          "mode": "100644",
+          "size": 41
+        }
+      ]
+    },
+    {
+      "name": "social-publisher",
+      "branch": "gyy",
+      "source_path": "tasks/gyy/social-publisher",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "tree_sha": "95fd70586fdcce46ca7fb714d9340df175b8a74a",
+      "destination": "tasks/finalpool/social-publisher",
+      "notion_page_id": "19f7ed39-46dc-8245-8114-81dde6b6d673",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "9cd9ceb6a1c32565473edc6d9e50f4418e4b8c9c",
+          "mode": "100644",
+          "size": 123
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "de9b502f7043c52a7149825db48ce07bc1d98e65",
+          "mode": "100644",
+          "size": 91
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "9afe0bc2d3bb40a16b57afc938ad146054d0e9f1",
+          "mode": "100644",
+          "size": 279
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "a85c0f309aeb3838e34de8c3cbc7c5de259fcd7d",
+          "mode": "100644",
+          "size": 39
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "expense-tracker",
+      "branch": "ruige",
+      "source_path": "tasks/ruige/expense-tracker",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "tree_sha": "15f56a003e623f72e6b921a78b262f831ff6a57c",
+      "destination": "tasks/finalpool/expense-tracker",
+      "notion_page_id": "e1d7ed39-46dc-8303-9d8c-01c60dfa2674",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "dd1527c8e113eecde97aee2560abefa0b84b47a3",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "2d04cc17877d1478cfc19a16b7027502b44e07dd",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "f33b43ddad7e3c94292f11ce252d3e8b94f347ee",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "aa44f7e511c249d1af973b84864d65f3783080b1",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "subtitle-generator",
+      "branch": "haoze",
+      "source_path": "tasks/haoze/subtitle-generator",
+      "source_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "tree_sha": "eac4b09305441c3c62bac6bf600ce271f2bef7f0",
+      "destination": "tasks/finalpool/subtitle-generator",
+      "notion_page_id": "85f7ed39-46dc-8250-81a8-011226becc03",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "c966720ba6f26eed7ade307faaa6059958a87b0b",
+          "mode": "100644",
+          "size": 125
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "650b51bb511a480b329a512db103f10c17daddce",
+          "mode": "100644",
+          "size": 95
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "87759b275740731c790fa35e744418b028f75ce7",
+          "mode": "100644",
+          "size": 53
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "f79bcbb1b0aaeb17d4aacd6be21239e28b6345ef",
+          "mode": "100644",
+          "size": 281
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "76df0c8ad9a6eba7fa81e3cbf44ebdc2345b2813",
+          "mode": "100644",
+          "size": 40
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "83a4d84b908998328e45ee890e19f9230b12f2d6",
+          "mode": "100644",
+          "size": 41
+        }
+      ]
+    },
+    {
+      "name": "error-tracker",
+      "branch": "xiaochen_dev",
+      "source_path": "tasks/xiaochen/error-tracker",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "tree_sha": "d3017f64286075704998d1bb6f1e77dd5540a0d2",
+      "destination": "tasks/finalpool/error-tracker",
+      "notion_page_id": "8767ed39-46dc-8338-8d0f-013990d277fd",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "7edfe1654a2825a42d61880372c0abd701fb5edf",
+          "mode": "100644",
+          "size": 120
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "c405eeb6f1b98d809dbee2958bb85d3b061943d7",
+          "mode": "100644",
+          "size": 85
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "98124156820c91c9ee809b9442a4b52138f46abc",
+          "mode": "100644",
+          "size": 48
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "a5a871584aa65f2ffcbbe382c409baa16bdb3464",
+          "mode": "100644",
+          "size": 276
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "889635f3d8493187c9551df574b31a6fe5ca5700",
+          "mode": "100644",
+          "size": 35
+        }
+      ]
+    },
+    {
+      "name": "task-scheduler",
+      "branch": "yuxuan-dev",
+      "source_path": "tasks/yuxuan/task-scheduler",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "tree_sha": "ecf519163efd7a2abd5696e5d6e9ccc00f06b93e",
+      "destination": "tasks/finalpool/task-scheduler",
+      "notion_page_id": "8897ed39-46dc-82d9-8aac-01aa9b598091",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "a23389721fb17bbca0c98f786025f0a55cac0374",
+          "mode": "100644",
+          "size": 121
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "0df5feb41d8e485181589d629e13008ca6b8a843",
+          "mode": "100644",
+          "size": 87
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "07f1544b37d8c9e252cd49831d4f8f126deabf1b",
+          "mode": "100644",
+          "size": 277
+        }
+      ]
+    },
+    {
+      "name": "email-classification-system",
+      "branch": "jl_dev",
+      "source_path": "tasks/jl/email-classification-system",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "tree_sha": "4d89429e2da82144e3b4af8549f783e75f4953a7",
+      "destination": "tasks/finalpool/email-classification-system",
+      "notion_page_id": "c327ed39-46dc-82b1-a0ef-81becb7a7dd8",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "7358c0e4978c668ea8560853448a9a467ca48530",
+          "mode": "100644",
+          "size": 134
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "ef4d26b7131794d13dd51596e0cd445fa291e7b9",
+          "mode": "100644",
+          "size": 113
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "d59a313242de93a2dab55afc2ece5a861adae329",
+          "mode": "100644",
+          "size": 290
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "1b84edb6030b5476891a6c0b2948996685c62344",
+          "mode": "100644",
+          "size": 49
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "7403c7b29cbc3b9db40503530736e3d49f9cfaea",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "template-engine",
+      "branch": "zhaochen",
+      "source_path": "tasks/zhaochen/template-engine",
+      "source_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "tree_sha": "3a70b017b72635110e7f8d28171d711412a14e69",
+      "destination": "tasks/finalpool/template-engine",
+      "notion_page_id": "7e77ed39-46dc-82c4-88a1-01be8f2b5a01",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "f8ebcb9a7522610c646696f1886e73a93dc4303e",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "639da1accc77ad51ec2b00e1db57e01cee30638d",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "e8fc0443dbbf92f6ab126837ba02d9981b8c3d22",
+          "mode": "100644",
+          "size": 278
+        }
+      ]
+    },
+    {
+      "name": "email-campaign",
+      "branch": "lueyang-dev",
+      "source_path": "tasks/lueyang/email-campaign",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "tree_sha": "a91d175489cb30be226a3b9587703575605c9b61",
+      "destination": "tasks/finalpool/email-campaign",
+      "notion_page_id": "ccd7ed39-46dc-8282-880d-0130effa783f",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "b5571ff0b8b29deac98e697c5eb8e883a532f763",
+          "mode": "100644",
+          "size": 121
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "bfb291790bbf84957f9ced0f353ddd041e3bc8fb",
+          "mode": "100644",
+          "size": 87
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "d02fc5512ae724903ba89bd35ef57b57c49bbe72",
+          "mode": "100644",
+          "size": 49
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "3ad9498d28802ad26a2c4cd8f7b3505e5f2e97c7",
+          "mode": "100644",
+          "size": 277
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "b594bff06f50288d1372cf0b869d924290ce8e8d",
+          "mode": "100644",
+          "size": 36
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "deployment-tool",
+      "branch": "xiaochen_dev",
+      "source_path": "tasks/xiaochen/deployment-tool",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "tree_sha": "5737766d90f597c0f294d8a6cab6c5943df2ac69",
+      "destination": "tasks/finalpool/deployment-tool",
+      "notion_page_id": "c987ed39-46dc-8334-a09b-8100503d1aa3",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "439254e7f3f367bbdb78937473c1370faca127a0",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "d2ed062095391518fb6782a6cec664197ee1ce3a",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "0f8ca4f49eb0995292794fbe362a0a2faabf3fa1",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "f51f8d260c56e40e8f0ef31ede8abcf613398665",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "059c7ef13be2d6f6922e45043f5a87da07d274da",
+          "mode": "100644",
+          "size": 37
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "translation-api",
+      "branch": "junxian_dev",
+      "source_path": "tasks/junxian/translation-api",
+      "source_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "tree_sha": "1cbe22d6bb2aceb9125f214b05aafa69058dbb29",
+      "destination": "tasks/finalpool/translation-api",
+      "notion_page_id": "9687ed39-46dc-822d-a34e-81f4d8ec416c",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "0f764f434788638ec67717e2ef5fe4d533f1a277",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "6e1f7dbd9f10355b889bbd298d4f04184fae2963",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "9393c988c7ae582066b8ce2ee3bab42ee03ffceb",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "66f7f8d2aa9f3a8e12a8b2ca7596551f6b7b6759",
+          "mode": "100644",
+          "size": 38
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "deal-manager",
+      "branch": "lueyang-dev",
+      "source_path": "tasks/lueyang/deal-manager",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "tree_sha": "c0949455bc3a2c967ccff459578f516e14a7256c",
+      "destination": "tasks/finalpool/deal-manager",
+      "notion_page_id": "d687ed39-46dc-83a6-9154-018902ca945f",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "822d0dce4136a7099d835616a2ad4e7dbabd83ea",
+          "mode": "100644",
+          "size": 119
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "485125d05365a3496ea634487f779aaf4ac54f0d",
+          "mode": "100644",
+          "size": 83
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "ca2d0cdee461c21f47136a1ea1acb1a080c4c734",
+          "mode": "100644",
+          "size": 275
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "771c7bea48d247928eb5451fbbb1f744d58bfc60",
+          "mode": "100644",
+          "size": 34
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "data-validator",
+      "branch": "yuzhen-dev",
+      "source_path": "tasks/yuzhen/data-validator",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "tree_sha": "69c765a9fa3289e24eed9bdf5895e240807bae69",
+      "destination": "tasks/finalpool/data-validator",
+      "notion_page_id": "1487ed39-46dc-8287-baf8-810afb91e149",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "4fdcc385006691101b328791c081dcff00f0eb52",
+          "mode": "100644",
+          "size": 121
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "43c54ce05bf411c675595b3531d8da5249793e9f",
+          "mode": "100644",
+          "size": 87
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "ec160b52e6c25a3b82ea801647627505220c41fa",
+          "mode": "100644",
+          "size": 277
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "4613c754e34d5d49ed8ccdfd523e5f9ed4619c81",
+          "mode": "100644",
+          "size": 37
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "video-trimmer",
+      "branch": "haoze",
+      "source_path": "tasks/haoze/video-trimmer",
+      "source_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "tree_sha": "a647334048bce7497caaee59f65aca1b3a6ef4a1",
+      "destination": "tasks/finalpool/video-trimmer",
+      "notion_page_id": "4d87ed39-46dc-82a9-ab5b-818cb7e3f80a",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "61294abce5e93ca8ad31b6a6d4b9b731e60f9676",
+          "mode": "100644",
+          "size": 120
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "4175bc67f11e776b59c8bbc94a08f9215f11eadd",
+          "mode": "100644",
+          "size": 85
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "16da2f57072e2c2d5c983149b8010738f912de61",
+          "mode": "100644",
+          "size": 276
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "fe2b540b9b50a52946134141edc3563c95c5ea07",
+          "mode": "100644",
+          "size": 36
+        }
+      ]
+    },
+    {
+      "name": "data-analytics",
+      "branch": "ruige",
+      "source_path": "tasks/ruige/data-analytics",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "tree_sha": "9fb92ea6c712090a459aec8fdea2b9f799a56033",
+      "destination": "tasks/finalpool/data-analytics",
+      "notion_page_id": "7b07ed39-46dc-82cc-bfdd-814edcefa34e",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "30f7f40b714d40557a8ada656d89738fe37e3d35",
+          "mode": "100644",
+          "size": 121
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "fc59c3f6f70d04cc8619eacf7308d9aa008ab026",
+          "mode": "100644",
+          "size": 87
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "da13921e56f67ae3cb3cb803916fea1328a7509a",
+          "mode": "100644",
+          "size": 277
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "a75ccdc4512d71a637add259c6bbcee983869014",
+          "mode": "100644",
+          "size": 36
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "voice-processor",
+      "branch": "lv",
+      "source_path": "tasks/lv/voice-processor",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "tree_sha": "2f2e2d00b462a31ed1dce23ecbae8d7eb3fc29a8",
+      "destination": "tasks/finalpool/voice-processor",
+      "notion_page_id": "56b7ed39-46dc-83e9-ae73-01ad300e1534",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "18f5747c4501733029338f2a5da8bcce069850da",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "4a07ed721358b824dc6f6f730a1501800a243718",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "93cadbb437abedce8fcb235c4ce1741439bba9a3",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "2e91016fe65ba9d74a5f491211a477f9a139a305",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "crm-system",
+      "branch": "lueyang-dev",
+      "source_path": "tasks/lueyang/crm-system",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "tree_sha": "89a0d586fcee909c6a3c8ccd5a47f6a4cbb1588d",
+      "destination": "tasks/finalpool/crm-system",
+      "notion_page_id": "e667ed39-46dc-83f6-a8d7-81d7c5e8b162",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "aed247732dfcb2aa1e5ea9630626ca867282307e",
+          "mode": "100644",
+          "size": 117
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "e99bf9b1a7b9de74288af440f69db4847592ac62",
+          "mode": "100644",
+          "size": 79
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "3200c3655e06c0553894fe203e877dc8da945f25",
+          "mode": "100644",
+          "size": 45
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "b0218b569f70f338a79124893d017a14582b5f38",
+          "mode": "100644",
+          "size": 273
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "fd607ce9183b1793dd474638dbd68a4ac8aa3521",
+          "mode": "100644",
+          "size": 32
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "862860d2ef59948fc1686d1d8ce95658943530c4",
+          "mode": "100644",
+          "size": 33
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "coupon-manager",
+      "branch": "fan-dev",
+      "source_path": "tasks/fan/coupon-manager",
+      "source_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "tree_sha": "7b3b4e6ec7cef1e2e0ead3704a38a059a2f626b3",
+      "destination": "tasks/finalpool/coupon-manager",
+      "notion_page_id": "e0e7ed39-46dc-831e-a25e-018b09e85a86",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "a4125f15caf53f4a7e5a9da98729e0fe012df463",
+          "mode": "100644",
+          "size": 121
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "d000140885bef28764fb67c9e8150f6582949e2f",
+          "mode": "100644",
+          "size": 87
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "123fa3d7df8f6f8037b8e2264e8c4f31c66a5666",
+          "mode": "100644",
+          "size": 277
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "cb660dd46db076cff399b0037cf492388776aed3",
+          "mode": "100644",
+          "size": 36
+        }
+      ]
+    },
+    {
+      "name": "content-scheduler",
+      "branch": "gyy",
+      "source_path": "tasks/gyy/content-scheduler",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "tree_sha": "06c681e7aad5442dac1db176f69db2e6085d2f7b",
+      "destination": "tasks/finalpool/content-scheduler",
+      "notion_page_id": "4607ed39-46dc-82e4-b083-8143c1c37059",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "1e0c0a27995f9650cf4b2899ea778b873039f7f6",
+          "mode": "100644",
+          "size": 124
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "de4bf4aad451d8ac4656459035e0d9ad5d887fd9",
+          "mode": "100644",
+          "size": 93
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "341037927a67a56109c10f2b07cb6b8f7152c70d",
+          "mode": "100644",
+          "size": 52
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "1f76ffb0b29aa7b71ea73bcb1514e37cb9340cbd",
+          "mode": "100644",
+          "size": 280
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "content-manager",
+      "branch": "yuxuan-dev",
+      "source_path": "tasks/yuxuan/content-manager",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "tree_sha": "c7276b5bf9cc7b4f4f3a34008e4743092b9a6cc0",
+      "destination": "tasks/finalpool/content-manager",
+      "notion_page_id": "eda7ed39-46dc-829e-80bf-012e0acd8d55",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "3416a4b47d329c938f120b6248e9b3e28d258b8e",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "02802002d11bbee5f45b22104cb33748889a8182",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "3da6f472407e19b4cebcaa0cfaa79c4333e49ee8",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "982a15a5b39b53f36910a059262fa96900acc75d",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "44cb7891244e9588c9f1b0bce289eb4248e4b9ca",
+          "mode": "100644",
+          "size": 37
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "b620fa680180176c6fd35f999f5024c398c1773c",
+          "mode": "100644",
+          "size": 38
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "monitoring-agent",
+      "branch": "xiaochen_dev",
+      "source_path": "tasks/xiaochen/monitoring-agent",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "tree_sha": "cf73734283930b301752ab8566fa25de1a3e383d",
+      "destination": "tasks/finalpool/monitoring-agent",
+      "notion_page_id": "6387ed39-46dc-83e0-b470-0129b43c0a66",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "f1d59a5d391b5761835db741f6a942c01c27653a",
+          "mode": "100644",
+          "size": 123
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "eece2322fe63c72a3c0ea9f1df8b434137c14e90",
+          "mode": "100644",
+          "size": 91
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "3363334252f44878e898d7a4fae802dd6844e231",
+          "mode": "100644",
+          "size": 279
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "34bcbbe1f6f6f96c42d98b8ceb2ad5eed4cd3200",
+          "mode": "100644",
+          "size": 38
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "contact-manager",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/contact-manager",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "tree_sha": "6c311e746e8969accf3662b2fd8f95fd8e85ab64",
+      "destination": "tasks/finalpool/contact-manager",
+      "notion_page_id": "5707ed39-46dc-83d1-a153-016bfd2d4910",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "37a564aaf9099c8cedb30fcf68ff96688e2611bd",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "047e004f43c5f76a2069e2027b65e740f1213acb",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "f61c99cd042d195a59bc1d378f63ab9a2924f9ce",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "8f2296d2d0b38234b96d07687c8d26d1a0e3beee",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "56ed9150253f76819a49578b5447c0990160c654",
+          "mode": "100644",
+          "size": 37
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "cms-builder",
+      "branch": "gyy",
+      "source_path": "tasks/gyy/cms-builder",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "tree_sha": "abbd774cfe91955c187a6431afb3078768276bb0",
+      "destination": "tasks/finalpool/cms-builder",
+      "notion_page_id": "2947ed39-46dc-82c4-8ed5-8154a0fa9b26",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "3fd93f44036bcc7e00ff5a3cb4ba0d0df974e534",
+          "mode": "100644",
+          "size": 118
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "3e0263be849fa646d773661b1901d82d95bb9c51",
+          "mode": "100644",
+          "size": 81
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "7193c26ca6f2eb7e74680e2298823d32197ad9c2",
+          "mode": "100644",
+          "size": 46
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "84ccab21d4368d2ef25f2bdf62bb154288a984e7",
+          "mode": "100644",
+          "size": 274
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "ad6f4c0740f549423822fe29e8bca71d6e8bbd56",
+          "mode": "100644",
+          "size": 33
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "ecea21fcefdd1dfb5df8918401e4383eebae7fbc",
+          "mode": "100644",
+          "size": 34
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "load-balancer",
+      "branch": "zhaochen",
+      "source_path": "tasks/zhaochen/load-balancer",
+      "source_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "tree_sha": "5059048aaca9e7b80c62653f9ca48604f6017c44",
+      "destination": "tasks/finalpool/load-balancer",
+      "notion_page_id": "23a7ed39-46dc-82df-a695-8151b042945d",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "1c2b01c2794000ece302b598364fe2aed79bf7f8",
+          "mode": "100644",
+          "size": 120
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "7c0a385ca9ec28286b83140ca60494e2644753bd",
+          "mode": "100644",
+          "size": 85
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "d052e55c9bf85e7a4d66d51f8d71b35cc728c4c5",
+          "mode": "100644",
+          "size": 276
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "chat-bot",
+      "branch": "lv",
+      "source_path": "tasks/lv/chat-bot",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "tree_sha": "e0fc1e5595b8bbb7853f42311f0c660eeacaa84a",
+      "destination": "tasks/finalpool/chat-bot",
+      "notion_page_id": "4437ed39-46dc-8286-ad7c-0110cb83d668",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "93526c818769a2eb93b8100787270a9e24c095c1",
+          "mode": "100644",
+          "size": 115
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "333f77688bea51dbd2dc881b606d7caf92daa7cf",
+          "mode": "100644",
+          "size": 75
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "1655610d1ab930c63034e63449ed45edf0e68511",
+          "mode": "100644",
+          "size": 43
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "c8b7543e0f1b17c0c421ad8183b43bc7e1336bda",
+          "mode": "100644",
+          "size": 271
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "949b059ef5b74403f49adee71c724dfa49e87c2b",
+          "mode": "100644",
+          "size": 31
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "canvas-grade-automation",
+      "branch": "jl_dev",
+      "source_path": "tasks/jl/canvas-grade-automation",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "tree_sha": "65a2280bec5b3b6c88d9dc62cceb835bbc87f134",
+      "destination": "tasks/finalpool/canvas-grade-automation",
+      "notion_page_id": "b0f7ed39-46dc-8222-ad9d-813cebe13d64",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "fc8abeded1bf75b46d99a7ff461386a6dda27f87",
+          "mode": "100644",
+          "size": 130
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "b4bbfddfe6550b2a68b44d449b22e14e08fb6123",
+          "mode": "100644",
+          "size": 105
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "2e5b6f752eff456a70316987ebdab6f265507f39",
+          "mode": "100644",
+          "size": 286
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "6e09110842df2e9ce9485c99f8860c5b4099d827",
+          "mode": "100644",
+          "size": 45
+        }
+      ]
+    },
+    {
+      "name": "invoice-generator",
+      "branch": "yuzhen-dev",
+      "source_path": "tasks/yuzhen/invoice-generator",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "tree_sha": "69fd1bdd49e85c238fadc412466f3eca1a725607",
+      "destination": "tasks/finalpool/invoice-generator",
+      "notion_page_id": "84d7ed39-46dc-82ba-968f-01bc37b31b42",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "c293d75e1e1356dbf45b01b624684863e7eac1b5",
+          "mode": "100644",
+          "size": 124
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "a474010b52142c80d6819c6fd3325ee1c3c6e1a9",
+          "mode": "100644",
+          "size": 93
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "3ee457d91f4bb51e4916a8c2da8f36bccf92f2b8",
+          "mode": "100644",
+          "size": 280
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "440f4424b1dd8fe42fe9b9482f1581305e383376",
+          "mode": "100644",
+          "size": 40
+        }
+      ]
+    },
+    {
+      "name": "canvas-automation",
+      "branch": "ruige",
+      "source_path": "tasks/ruige/canvas-automation",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "tree_sha": "2dc006c82017ded4a4ee1a0ec7f513ce3f1d2025",
+      "destination": "tasks/finalpool/canvas-automation",
+      "notion_page_id": "a567ed39-46dc-8318-8261-012bd8cc5616",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "57542673b49188ace285f62695180ca38460c3e0",
+          "mode": "100644",
+          "size": 124
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "c5909995cfec709d73b8d22317b5a6807b773430",
+          "mode": "100644",
+          "size": 93
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "c0511c9c52bf305918e9ee91131308c7fc369c50",
+          "mode": "100644",
+          "size": 280
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "da813cedf9c2a6c263ac78134b5632af19ed141a",
+          "mode": "100644",
+          "size": 40
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "calendar-sync",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/calendar-sync",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "tree_sha": "8188052d2add06cc716545eeb3f7840daa1a08e1",
+      "destination": "tasks/finalpool/calendar-sync",
+      "notion_page_id": "bb77ed39-46dc-83fb-909d-81b5f4bff684",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "a9686f317d8cbf9399ac00b8bdc903e50597fa58",
+          "mode": "100644",
+          "size": 120
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "9be622c99008e7e34d1c39b6145f87175d3c9076",
+          "mode": "100644",
+          "size": 85
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "76b7f760ce9a9a10d7277a233f7eae1c79c7422f",
+          "mode": "100644",
+          "size": 48
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "9b8b9bea63aa2ad9f1777128732ff80de97b5a39",
+          "mode": "100644",
+          "size": 276
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "a07ba1f36254f8d5f3fd7439af7fc829eebc5a2a",
+          "mode": "100644",
+          "size": 35
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "image-processor",
+      "branch": "wenshuo-dev",
+      "source_path": "tasks/wenshuo/image-processor",
+      "source_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "tree_sha": "329ab34e5bb98d29355b436bedc4fd770d6ca236",
+      "destination": "tasks/finalpool/image-processor",
+      "notion_page_id": "d837ed39-46dc-835f-8dd8-01c96f17b950",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "c738b9ebe133115b5536f7ee1d086218ca4e99b1",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "6f13328b1879ea0de0cceb14a4775d61b5116294",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "bbbda1442d34b6be91a733095116f343d5d66b90",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "1c088069188713e74fecccaa4f4e8f9eda7ab4f5",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "72e4d939567bf3e5f36df385066aece2b804c516",
+          "mode": "100644",
+          "size": 38
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "booking-system",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/booking-system",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "tree_sha": "f31abeb30b05363037b0f6897ec38ebcc879b2e9",
+      "destination": "tasks/finalpool/booking-system",
+      "notion_page_id": "bac7ed39-46dc-83c2-b917-01ee577fba79",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "9f31a9f20a8576fbbed62cd7c4ae87e70e755cf1",
+          "mode": "100644",
+          "size": 121
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "7a39ea59fd17d6e918b7196ec1a5d72abcca2860",
+          "mode": "100644",
+          "size": 87
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "6db1275608aa5347ba9ffc9686e89b553d649587",
+          "mode": "100644",
+          "size": 49
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "6233aa8b1ea587f2bed7d53cf8f4d2692a30a24e",
+          "mode": "100644",
+          "size": 277
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "4585d8e79e9954bf5f34c4f80196d527d71ea6c7",
+          "mode": "100644",
+          "size": 36
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "96007f01eb708f5e1be3da52ceb877825ae022db",
+          "mode": "100644",
+          "size": 37
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "blog-engine",
+      "branch": "gyy",
+      "source_path": "tasks/gyy/blog-engine",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "tree_sha": "7f3e73503fe06237410c1d74a9a3553da050813d",
+      "destination": "tasks/finalpool/blog-engine",
+      "notion_page_id": "47f7ed39-46dc-82c2-831a-01520c316e6b",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "cadecba4bbd0d0f9fadf1cfc43892bb905efb9fd",
+          "mode": "100644",
+          "size": 118
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "11b5f36c5772adcea4ff202d862653159c90556d",
+          "mode": "100644",
+          "size": 81
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "8ad8ad13c97fe7bc7252bdb099221d613c9c3456",
+          "mode": "100644",
+          "size": 274
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "1de574c1486ed5a8f488e3b975c1a445b6986840",
+          "mode": "100644",
+          "size": 33
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "2a1248ef2612c50d0e96f3847efb1cf03922930e",
+          "mode": "100644",
+          "size": 34
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "backup-utility",
+      "branch": "xiaochen_dev",
+      "source_path": "tasks/xiaochen/backup-utility",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "tree_sha": "173bcbcce86dd288ebed057865251e1f3b3344cd",
+      "destination": "tasks/finalpool/backup-utility",
+      "notion_page_id": "f907ed39-46dc-82ec-a638-0186dc6617da",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "860943ea765cc2529954cd0b4970c3ca03cf983d",
+          "mode": "100644",
+          "size": 121
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "df94e32a20f60177cdd730f49d29fc3edf8e575e",
+          "mode": "100644",
+          "size": 87
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "c73ac7574c582d56dd988947e476f9d615d75786",
+          "mode": "100644",
+          "size": 277
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "asset-optimizer",
+      "branch": "yuxuan-dev",
+      "source_path": "tasks/yuxuan/asset-optimizer",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "tree_sha": "56d4c49230462ee219c07582416a615024cbae5c",
+      "destination": "tasks/finalpool/asset-optimizer",
+      "notion_page_id": "a7d7ed39-46dc-82c5-a9fe-019c398e52e7",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "f804ede58fb9fd01292c3bb67a794fcab12a94b8",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "3fe083333d57ac523223568a0125fc66e06dc852",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "ac0fc2e202ca29d0e061b5fc90be45414099d48d",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "groundtruth_workspace/readme.txt",
+          "sha": "003bd9662917f7cf5800dc7e2ea77efbad28798f",
+          "mode": "100644",
+          "size": 37
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "037e22b77b8fa2fd7f6a2a19cd125dd524fb5072",
+          "mode": "100644",
+          "size": 38
+        }
+      ]
+    },
+    {
+      "name": "alert-system",
+      "branch": "yuzhen-dev",
+      "source_path": "tasks/yuzhen/alert-system",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "tree_sha": "64a2df6f9d1c043ce3587c54406b424ee62feb35",
+      "destination": "tasks/finalpool/alert-system",
+      "notion_page_id": "c2e7ed39-46dc-82f2-a52b-014583467f67",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "daf846d28fc258b794e052885d0d782356efceca",
+          "mode": "100644",
+          "size": 119
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "eac81c97cd8eebd513af6ca025bf49813ed834d4",
+          "mode": "100644",
+          "size": 83
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "4e3eea68322462c2a8b9d5d65be02fd8cf74f23e",
+          "mode": "100644",
+          "size": 47
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "3ec09e6e52ec5c40eb0399701e631efc1066d054",
+          "mode": "100644",
+          "size": 275
+        },
+        {
+          "path": "preprocess/main.py",
+          "sha": "9b394352cab8316b37f15f0172e79d0e7e629e9e",
+          "mode": "100644",
+          "size": 56
+        }
+      ]
+    },
+    {
+      "name": "activity-logger",
+      "branch": "lueyang-dev",
+      "source_path": "tasks/lueyang/activity-logger",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "tree_sha": "9c5eb809d6d7aa4a51a7b6b9e53c1dcac0d4bccd",
+      "destination": "tasks/finalpool/activity-logger",
+      "notion_page_id": "6787ed39-46dc-83c2-8499-01b7e62e96e1",
+      "files": [
+        {
+          "path": "docs/agent_system_prompt.md",
+          "sha": "7a82a562e46f10f38686207de278b025e71ad4ef",
+          "mode": "100644",
+          "size": 122
+        },
+        {
+          "path": "docs/task.md",
+          "sha": "07edc9f1cfe064d09b7be11ca2b4734c08576e9f",
+          "mode": "100644",
+          "size": 89
+        },
+        {
+          "path": "docs/user_system_prompt.md",
+          "sha": "da1a27fb93161168ecc4eeb7c35643d2b9b36094",
+          "mode": "100644",
+          "size": 50
+        },
+        {
+          "path": "evaluation/main.py",
+          "sha": "0f298beb21821c4db21c127480e884e38c18fae4",
+          "mode": "100644",
+          "size": 278
+        },
+        {
+          "path": "initial_workspace/readme.txt",
+          "sha": "452e4680c1b6da081ff40b73c7999d3644b92e89",
+          "mode": "100644",
+          "size": 38
+        }
+      ]
+    }
+  ],
+  "latest_task_review": [
+    {
+      "name": "discount-calculator",
+      "branch": "fan-dev",
+      "source_path": "tasks/fan/discount-calculator",
+      "source_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-8143-bee0-f8b88f57016b"
+    },
+    {
+      "name": "loyalty-program",
+      "branch": "fan-dev",
+      "source_path": "tasks/fan/loyalty-program",
+      "source_commit": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-815f-aed6-ec2c12a4e134"
+    },
+    {
+      "name": "robots-handler",
+      "branch": "gyy",
+      "source_path": "tasks/gyy/robots-handler",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-8181-9b03-e37b212b26b7"
+    },
+    {
+      "name": "sitemap-generator",
+      "branch": "gyy",
+      "source_path": "tasks/gyy/sitemap-generator",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81a5-90f6-cdd987b0d4e5"
+    },
+    {
+      "name": "tag-manager",
+      "branch": "gyy",
+      "source_path": "tasks/gyy/tag-manager",
+      "source_commit": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-810e-a6aa-f40d685d228d"
+    },
+    {
+      "name": "media-organizer",
+      "branch": "haoze",
+      "source_path": "tasks/haoze/media-organizer",
+      "source_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-8124-9ba6-d90d9efbd5be"
+    },
+    {
+      "name": "streaming-service",
+      "branch": "haoze",
+      "source_path": "tasks/haoze/streaming-service",
+      "source_commit": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81a5-a8ee-eb3c75913791"
+    },
+    {
+      "name": "customer-feedback-processor",
+      "branch": "jl_dev",
+      "source_path": "tasks/jl/customer-feedback-processor",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81f3-ac5a-e1c4e852cc5c"
+    },
+    {
+      "name": "inventory-management",
+      "branch": "jl_dev",
+      "source_path": "tasks/jl/inventory-management",
+      "source_commit": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81a5-97e9-c147afdde5a1"
+    },
+    {
+      "name": "customer-portal",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/customer-portal",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-8175-bf64-f53313f5389b"
+    },
+    {
+      "name": "help-desk",
+      "branch": "junteng_dev",
+      "source_path": "tasks/junteng/help-desk",
+      "source_commit": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-819b-838a-da2a526d8cc5"
+    },
+    {
+      "name": "currency-converter",
+      "branch": "junxian_dev",
+      "source_path": "tasks/junxian/currency-converter",
+      "source_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "status": "implementing",
+      "issues": [
+        "docs/task.md contains Chinese; English-only content required",
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81e8-83e1-dfa32b7d66ff"
+    },
+    {
+      "name": "social-connector",
+      "branch": "junxian_dev",
+      "source_path": "tasks/junxian/social-connector",
+      "source_commit": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-814a-b911-e33703609fb8"
+    },
+    {
+      "name": "client-portal",
+      "branch": "lueyang-dev",
+      "source_path": "tasks/lueyang/client-portal",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81bc-8965-eda3f49c9a3e"
+    },
+    {
+      "name": "territory-manager",
+      "branch": "lueyang-dev",
+      "source_path": "tasks/lueyang/territory-manager",
+      "source_commit": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81da-9f8f-fc8b7ab769f3"
+    },
+    {
+      "name": "analytics-dashboard",
+      "branch": "lv",
+      "source_path": "tasks/lv/analytics-dashboard",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-810c-a251-eaeccc98fb48"
+    },
+    {
+      "name": "insights-engine",
+      "branch": "lv",
+      "source_path": "tasks/lv/insights-engine",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "status": "implementing",
+      "issues": [
+        "docs/agent_system_prompt.md contains Chinese; English-only content required",
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-8118-8969-ef4bcfe8bebb"
+    },
+    {
+      "name": "survey-builder",
+      "branch": "lv",
+      "source_path": "tasks/lv/survey-builder",
+      "source_commit": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81bf-b396-d2436be17c63"
+    },
+    {
+      "name": "log-analyzer",
+      "branch": "ruige",
+      "source_path": "tasks/ruige/log-analyzer",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-811e-aa89-db625d28ee5b"
+    },
+    {
+      "name": "web-crawler",
+      "branch": "ruige",
+      "source_path": "tasks/ruige/web-crawler",
+      "source_commit": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81dd-8ef1-ca22e80c029d"
+    },
+    {
+      "name": "cache-optimizer",
+      "branch": "wenshuo-dev",
+      "source_path": "tasks/wenshuo/cache-optimizer",
+      "source_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-8171-9c2f-c46bd9fe6db9"
+    },
+    {
+      "name": "scheduler",
+      "branch": "wenshuo-dev",
+      "source_path": "tasks/wenshuo/scheduler",
+      "source_commit": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-8190-bf5c-decaf9184aab"
+    },
+    {
+      "name": "health-monitor",
+      "branch": "xiaochen_dev",
+      "source_path": "tasks/xiaochen/health-monitor",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81a1-b8c8-f29dadeb4b5f"
+    },
+    {
+      "name": "status-checker",
+      "branch": "xiaochen_dev",
+      "source_path": "tasks/xiaochen/status-checker",
+      "source_commit": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81bb-bd97-e98290035fef"
+    },
+    {
+      "name": "Unnamed task (tasks/yuxuan)",
+      "branch": "yuxuan-dev",
+      "source_path": "tasks/yuxuan",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81b3-a3aa-f48d95303155"
+    },
+    {
+      "name": "sync-service",
+      "branch": "yuxuan-dev",
+      "source_path": "tasks/yuxuan/sync-service",
+      "source_commit": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-8120-a52c-d3413a8c2295"
+    },
+    {
+      "name": "audit-logger",
+      "branch": "yuzhen-dev",
+      "source_path": "tasks/yuzhen/audit-logger",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "status": "implementing",
+      "issues": [
+        "docs/agent_system_prompt.md contains Chinese; English-only content required",
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-812f-a12c-da8e15bee5b9"
+    },
+    {
+      "name": "resource-monitor",
+      "branch": "yuzhen-dev",
+      "source_path": "tasks/yuzhen/resource-monitor",
+      "source_commit": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "status": "implementing",
+      "issues": [
+        "docs/agent_system_prompt.md contains Chinese; English-only content required",
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81f9-a746-c77620c45493"
+    },
+    {
+      "name": "certificate-manager",
+      "branch": "zhaochen",
+      "source_path": "tasks/zhaochen/certificate-manager",
+      "source_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-81b0-a67b-d8edd2af7385"
+    },
+    {
+      "name": "storage-manager",
+      "branch": "zhaochen",
+      "source_path": "tasks/zhaochen/storage-manager",
+      "source_commit": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "status": "implementing",
+      "issues": [
+        "Missing task_config.json (needed_mcp_servers must be nonempty; needed_local_tools must be nonempty and include claim_done)"
+      ],
+      "notion_page_id": "41f7ed39-46dc-817d-a996-de6e8e695512"
+    }
+  ]
+}
